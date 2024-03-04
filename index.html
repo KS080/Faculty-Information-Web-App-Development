@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home page</title>
+  <style>
+    body {
+      background: #F0F0F0; /* Lighter background for better readability */
+      color: #333; /* Darker text for contrast */
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #FFFFFF; /* White container background */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+      border-radius: 8px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #E34320; /* Retaining your chosen accent color */
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      margin: 10px 0;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ddd; /* subtle border */
+      margin-bottom: 10px; /* spacing */
+    }
+
+    input[type="submit"] {
+      background-color: #E34320; /* Button color */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #C3311A; /* Darker shade on hover */
+    }
+
+    a {
+      color: #E34320;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Project 4</h1>
+    <form name="search" action="." method="post">
+      <div>
+        <label>Enter name to check faculty Email:</label>
+        <input type="text" name="email" placeholder="First last Name">
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+    <p>To check about, click <a href='/about'>here</a>.</p>
+  </div>
+</body>
+</html>
